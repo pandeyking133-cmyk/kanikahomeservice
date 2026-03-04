@@ -93,7 +93,7 @@ const Footer = () => {
                                     <div className="p-2 bg-brand-black border border-brand-burgundy/50 rounded-full text-brand-gold">
                                         <Mail size={16} />
                                     </div>
-                                    <span>pandeyking133@gmail.com</span>
+                                    <span>Click to mail</span>
                                 </a>
                             </li>
                             <li className="flex items-center gap-3">

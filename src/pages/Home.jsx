@@ -225,7 +225,7 @@ const Home = () => {
                         className="mb-12"
                     >
                         <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-4 leading-tight">
-                            Call girls in Kolkata <br />
+                            Call girls in Raj Nagar <br />
                             <span className="text-white">₹5999 COD Payment Free Home Delivery</span>
                         </h2>
                         <div className="w-24 h-1 bg-brand-burgundy mx-auto mt-6"></div>
