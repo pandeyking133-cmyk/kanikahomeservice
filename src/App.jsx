@@ -7,6 +7,8 @@ import LocationPage from './pages/LocationPage';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sitemap from './pages/Sitemap';
+import PageNotFound from './pages/Pagenotfound';
 
 function App() {
     const locations = [
@@ -34,9 +36,11 @@ function App() {
                             />
                         ))}
                         <Route path="/blog" element={<Blog />} />
+                        <Route path="/sitemap" element={<Sitemap />} />
                         <Route path="/blog/:id" element={<BlogPost />} />
                         {/* Fallback route */}
-                        <Route path="*" element={<Home />} />
+                        <Route path="/" element={<Home />} />
+                        <Route path="*" element={<PageNotFound />} />
                     </Routes>
                 </main>
                 <Footer />
