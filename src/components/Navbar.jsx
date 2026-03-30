@@ -23,10 +23,10 @@ const Navbar = () => {
     ];
 
     return (
-        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-black/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5'}`}>
+        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-black/95 backdrop-blur-md shadow-lg py-2' : 'bg-transparent py-3'}`}>
             <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
                 <Link to="/" className="text-2xl md:text-3xl font-serif text-brand-gold font-bold tracking-wider">
-                    Kanika<span className="text-white"> Home Service</span>
+                    <img src='/logo.png' className='h-24'/>
                 </Link>
 
                 {/* Desktop Nav */}
