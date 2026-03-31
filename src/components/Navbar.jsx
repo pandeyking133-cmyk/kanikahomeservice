@@ -16,6 +16,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Home', path: '/' },
+        { name: 'About Us', path: '/about' },
         { name: 'Noida', path: '/Escorts-in-noida' },
         { name: 'Ghaziabad', path: '/Escorts-in-ghaziabad' },
         { name: 'Vasundhara', path: '/Escorts-in-vasundhara' },

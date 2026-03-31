@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 import Home from './pages/Home';
+import About from './pages/About';
 import LocationPage from './pages/LocationPage';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
@@ -28,6 +29,7 @@ function App() {
                 <main className="flex-grow">
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
                         {locations.map((loc) => (
                             <Route
                                 key={loc.path}
