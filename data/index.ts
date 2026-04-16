@@ -9,7 +9,38 @@ import { locationData as rajNagar } from './locations/raj-nagar';
 import { blogData as bestDancersGhaziabad } from './blogs/best-call-girl-ghaziabad';
 import { blogData as luxuryDancersNoida } from './blogs/luxury-call-girl-noida';
 
-export const locations = [
+export interface LocationData {
+  id: string;
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  subtext?: string;
+  heroImage: string;
+  heroVideo?: string;
+  sectionVideo?: string;
+  galleryImages?: { src: string; alt: string }[];
+  content: string;
+  faqs: { question: string; answer: string }[];
+  schema: any;
+}
+
+export interface BlogData {
+  id: string;
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  heroImage: string;
+  content: string;
+  excerpt?: string;
+  date?: string;
+  schema: any;
+}
+
+export const locations: LocationData[] = [
   ghaziabad,
   noida,
   vasundhara,
@@ -19,7 +50,7 @@ export const locations = [
   rajNagar
 ];
 
-export const blogs = [
+export const blogs: BlogData[] = [
   bestDancersGhaziabad,
   luxuryDancersNoida
 ];

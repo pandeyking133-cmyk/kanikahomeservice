@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
       locale: 'en_IN',
       type: 'article',
-      publishedTime: data.date,
+      publishedTime: data.date || undefined,
     },
   };
 }
@@ -76,7 +76,7 @@ export default function BlogPostPage({ params }: Props) {
               {data.h1}
             </h1>
             <div className="flex items-center justify-center gap-4 text-gray-400 font-light text-sm tracking-wide">
-               <span>Published: {new Date(data.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+               <span>Published: {data.date ? new Date(data.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }) : 'Recently'}</span>
                <span className="w-1.5 h-1.5 bg-brand-burgundy rounded-full"></span>
                <span>VIP Lifestyle</span>
             </div>

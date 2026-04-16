@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogUrls = blogs.map((blog) => ({
     url: `${DOMAIN}/blog/${blog.slug}`,
-    lastModified: new Date(blog.date),
+    lastModified: blog.date ? new Date(blog.date) : new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));

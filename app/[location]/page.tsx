@@ -161,7 +161,7 @@ export default function LocationPage({ params }: Props) {
                 {/* Optional Image Gallery Section */}
                 {data.galleryImages && (
                   <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {data.galleryImages.map((img: any, idx: number) => (
+                    {data.galleryImages.map((img: { src: string; alt: string }, idx: number) => (
                       <div key={idx} className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl group border border-white/5">
                         <Image
                           src={img.src}

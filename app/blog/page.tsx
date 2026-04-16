@@ -24,7 +24,9 @@ export default function BlogIndex() {
                      <Image src={blog.heroImage} alt={blog.title} fill className="object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" />
                   </div>
                   <div className="p-6">
-                     <div className="text-xs text-brand-gold mb-3 uppercase tracking-widest">{new Date(blog.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</div>
+                     <div className="text-xs text-brand-gold mb-3 uppercase tracking-widest">
+                        {blog.date ? new Date(blog.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Recently Published'}
+                     </div>
                      <h2 className="text-2xl font-serif text-gray-200 group-hover:text-brand-gold transition duration-300 mb-3 line-clamp-2">{blog.h1}</h2>
                      <p className="text-gray-400 font-light line-clamp-3 mb-6">{blog.metaDescription}</p>
                      <span className="text-sm border-b border-brand-gold text-brand-gold pb-1 font-semibold uppercase tracking-wide">Read Article</span>
