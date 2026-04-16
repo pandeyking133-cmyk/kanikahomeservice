@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-black text-gray-200;
+  }
+}
+
+/* Custom scrollbar to match the luxury dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a001a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Prose overrides for typography plugin to maintain dark theme */
+.prose {
+  @apply text-gray-300;
+}
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply text-brand-gold font-serif;
+}
+.prose a {
+  @apply text-brand-gold hover:text-brand-lightGold transition-colors;
+}
+.prose strong {
+  @apply text-white;
+}
