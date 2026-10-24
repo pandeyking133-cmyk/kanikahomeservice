@@ -4,13 +4,38 @@ import Link from 'next/link';
 import { blogs } from '@/data';
 
 export const metadata: Metadata = {
-  title: 'Luxury Lifestyle Blog | Kanika Elite',
+  title: 'Luxury Lifestyle Blog | Kanika Home Service',
   description: 'Read the latest updates, guides, and thoughts on luxury entertainment, elite private parties, and VIP lifestyles across Delhi NCR.',
+  alternates: {
+    canonical: 'https://www.kanikahomeservice.in/blog',
+  },
+  openGraph: {
+    title: 'Luxury Lifestyle Blog | Kanika Home Service',
+    description: 'Guides, event ideas, and luxury insights from the Kanika Home Service team.',
+    url: 'https://www.kanikahomeservice.in/blog',
+    images: [{ url: 'https://www.kanikahomeservice.in/images/home1.png', width: 1200, height: 630 }],
+  },
 };
 
 export default function BlogIndex() {
+  const blogListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Luxury Lifestyle Blog — Kanika Home Service",
+    url: "https://www.kanikahomeservice.in/blog",
+    itemListElement: blogs.map((b, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://www.kanikahomeservice.in/blog/${b.slug}`,
+      name: b.h1,
+    })),
+  };
   return (
     <article className="min-h-screen bg-brand-black pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogListSchema) }}
+      />
       <div className="relative h-[40vh] w-full flex flex-col items-center justify-center bg-gradient-to-b from-[#110005] to-brand-black">
          <h1 className="text-4xl md:text-6xl font-serif text-brand-gold font-bold mb-4">Luxury Insights</h1>
          <p className="text-gray-400 font-light max-w-2xl text-center px-4">Guides, event ideas, and luxury aesthetics from the Kanika Elite team.</p>

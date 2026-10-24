@@ -41,6 +41,12 @@ const config: Config = {
         '.animation-delay-600': {
           'animation-delay': '600ms',
         },
+        '.animation-delay-900': {
+          'animation-delay': '900ms',
+        },
+        '.animation-delay-1200': {
+          'animation-delay': '1200ms',
+        },
       }
       addUtilities(newUtilities)
     }

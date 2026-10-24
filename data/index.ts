@@ -6,8 +6,8 @@ import { locationData as kaushambi } from './locations/kaushambi';
 import { locationData as mohanNagar } from './locations/mohan-nagar';
 import { locationData as rajNagar } from './locations/raj-nagar';
 
-import { blogData as bestDancersGhaziabad } from './blogs/best-call-girl-ghaziabad';
-import { blogData as luxuryDancersNoida } from './blogs/luxury-call-girl-noida';
+import { blogData as bestCallGirlsGhaziabad } from './blogs/best-call-girl-ghaziabad';
+import { blogData as luxuryCallGirlsNoida } from './blogs/luxury-call-girl-noida';
 
 export interface LocationData {
   id: string;
@@ -51,8 +51,8 @@ export const locations: LocationData[] = [
 ];
 
 export const blogs: BlogData[] = [
-  bestDancersGhaziabad,
-  luxuryDancersNoida
+  bestCallGirlsGhaziabad,
+  luxuryCallGirlsNoida
 ];
 
 // Helper functions for easy access

@@ -20,9 +20,9 @@ const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'About Us', path: '/about' },
-        { name: 'Noida', path: '/dancers-in-noida' },
-        { name: 'Ghaziabad', path: '/dancers-in-ghaziabad' },
-        { name: 'Vasundhara', path: '/dancers-in-vasundhara' },
+        { name: 'Noida', path: '/call-girls-in-noida' },
+        { name: 'Ghaziabad', path: '/call-girls-in-ghaziabad' },
+        { name: 'Vasundhara', path: '/call-girls-in-vasundhara' },
         { name: 'Blog', path: '/blog' }
     ];
 

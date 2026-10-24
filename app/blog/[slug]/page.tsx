@@ -103,7 +103,7 @@ export default function BlogPostPage({ params }: Props) {
            <div className="container mx-auto max-w-3xl px-4">
               <div className="bg-gradient-to-r from-[#0a0a0a] via-[#120005] to-[#0a0a0a] border border-brand-burgundy/30 rounded-xl p-8 md:p-12 text-center shadow-2xl">
                  <h3 className="text-2xl font-serif text-brand-gold mb-4">Ready to Elevate Your Experience?</h3>
-                 <p className="text-gray-400 mb-8 font-light">Contact our dedicated concierge today to secure the finest elite entertainment in Delhi NCR.</p>
+                 <p className="text-gray-400 mb-8 font-light">Contact our dedicated concierge today to secure the finest Call girl service in Delhi NCR.</p>
                  <a href="tel:7303405072" className="inline-block bg-brand-burgundy hover:bg-red-900 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 shadow-[0_0_15px_rgba(90,0,26,0.5)] tracking-wide uppercase">
                     Connect Now
                  </a>

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: data.metaTitle,
     description: data.metaDescription,
     alternates: {
-      canonical: `/${data.slug}`
+      canonical: `https://www.kanikahomeservice.in/${data.slug}`
     },
     openGraph: {
       title: data.metaTitle,
@@ -43,6 +43,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
       locale: 'en_IN',
       type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: data.metaTitle,
+      description: data.metaDescription,
+      images: [data.heroImage],
+    },
+    other: {
+      "geo.region": "IN-UP",
+      "geo.placename": data.title.split(' in ')[1] || data.id,
     },
   };
 }

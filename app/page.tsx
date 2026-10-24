@@ -5,19 +5,41 @@ import { Phone, Star, Shield, Clock } from 'lucide-react';
 import LeadCapture from "@/components/LeadCapture";
 
 export const metadata: Metadata = {
-  title: "Kanika home service | Where Elegance Meets Desire",
-  description: "Premium Professional Call girls Available Across Vasundhara, Vaishali, Noida & Ghaziabad Region. Book exclusive presence today.",
+  title: "Premium Call Girls in Delhi NCR | Kanika Home Service",
+  description: "Premium Professional Call Girls Available Across Vasundhara, Vaishali, Noida & Ghaziabad Region. 24/7 discreet booking. Call 7303405072.",
+  alternates: {
+    canonical: "https://www.kanikahomeservice.in",
+  },
+  openGraph: {
+    title: "Premium Call Girls in Delhi NCR | Kanika Home Service",
+    description: "Premium Professional Call Girls Available Across Vasundhara, Vaishali, Noida & Ghaziabad Region. 24/7 discreet booking.",
+    url: "https://www.kanikahomeservice.in",
+    siteName: "Kanika Home Service",
+    images: [{ url: "https://www.kanikahomeservice.in/images/home1.png", width: 1200, height: 630, alt: "Kanika Home Service – Premium Call Girls Delhi NCR" }],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Premium Call Girls in Delhi NCR | Kanika Home Service",
+    description: "Premium Professional Call Girls Available Across Vasundhara, Vaishali, Noida & Ghaziabad Region. 24/7 discreet booking.",
+    images: ["https://www.kanikahomeservice.in/images/home1.png"],
+  },
+  other: {
+    "geo.region": "IN-UP",
+    "geo.placename": "Delhi NCR",
+  },
 };
 
 export default function Home() {
   const locations = [
-    { name: 'Vasundhara', path: '/dancers-in-vasundhara', image: '/images/girl4.jpeg' },
-    { name: 'Vaishali', path: '/dancers-in-vaishali', image: '/images/girl1.jpeg' },
-    { name: 'Noida', path: '/dancers-in-noida', image: '/images/girl2.jpeg' },
-    { name: 'Raj Nagar', path: '/dancers-in-raj-nagar', image: '/images/girl5.jpeg' },
-    { name: 'Mohan Nagar', path: '/dancers-in-mohan-nagar', image: '/images/girl6.jpeg' },
-    { name: 'Kaushambi', path: '/dancers-in-kaushambi', image: '/images/girl7.jpeg' },
-    { name: 'Ghaziabad', path: '/dancers-in-ghaziabad', image: '/images/girl8.jpeg' },
+    { name: 'Vasundhara', path: '/call-girls-in-vasundhara', image: '/images/girl4.jpeg' },
+    { name: 'Vaishali', path: '/call-girls-in-vaishali', image: '/images/girl1.jpeg' },
+    { name: 'Noida', path: '/call-girls-in-noida', image: '/images/girl2.jpeg' },
+    { name: 'Raj Nagar', path: '/call-girls-in-raj-nagar', image: '/images/girl5.jpeg' },
+    { name: 'Mohan Nagar', path: '/call-girls-in-mohan-nagar', image: '/images/girl6.jpeg' },
+    { name: 'Kaushambi', path: '/call-girls-in-kaushambi', image: '/images/girl7.jpeg' },
+    { name: 'Ghaziabad', path: '/call-girls-in-ghaziabad', image: '/images/girl8.jpeg' },
   ];
 
   return (
@@ -34,6 +56,7 @@ export default function Home() {
             loop
             muted
             playsInline
+            poster="/images/home1.png"
             className="w-full h-full object-cover object-center"
           >
             <source src="/videos/hero.mp4" type="video/mp4" />
@@ -117,6 +140,20 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Blog Internal Link Section */}
+      <section className="py-16 bg-[#050505] border-t border-gray-800/50">
+        <div className="container mx-auto px-4 md:px-8 text-center">
+          <p className="text-gray-400 text-sm uppercase tracking-widest mb-3">Resources & Guides</p>
+          <h2 className="text-2xl md:text-3xl font-serif text-white mb-4">
+            Read Our <span className="text-brand-gold italic">Luxury Lifestyle Blog</span>
+          </h2>
+          <p className="text-gray-500 max-w-xl mx-auto mb-6 font-light">Guides, event tips, and insights on premium entertainment across Delhi NCR.</p>
+          <Link href="/blog" className="inline-block border border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-black px-8 py-3 rounded-md font-semibold tracking-wider uppercase transition-all duration-300 text-sm">
+            Visit Blog →
+          </Link>
         </div>
       </section>
 

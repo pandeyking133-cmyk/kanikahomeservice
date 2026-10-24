@@ -3,13 +3,50 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Our Agency | Kanika Elite',
-  description: 'Learn about Kanika Home Service, the premier provider of elite luxury dancers and sophisticated companionship across Delhi NCR.',
+  title: 'About Kanika Home Service | Premium Call Girls Agency Delhi NCR',
+  description: 'Kanika Home Service is Delhi NCR\'s most trusted premium call girls agency — hand-picked companions, absolute discretion, and 24/7 availability across Noida, Ghaziabad & Vasundhara.',
+  alternates: {
+    canonical: 'https://www.kanikahomeservice.in/about',
+  },
+  openGraph: {
+    title: 'About Kanika Home Service | Premium Call Girls Agency Delhi NCR',
+    description: 'Kanika Home Service is Delhi NCR\'s most trusted premium call girls agency — hand-picked companions, absolute discretion, and 24/7 availability.',
+    url: 'https://www.kanikahomeservice.in/about',
+    images: [{ url: 'https://www.kanikahomeservice.in/images/home1.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Kanika Home Service | Premium Call Girls Agency Delhi NCR',
+    images: ['https://www.kanikahomeservice.in/images/home1.png'],
+  },
 };
 
 export default function AboutPage() {
+  const orgSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Kanika Home Service",
+    url: "https://www.kanikahomeservice.in",
+    logo: "https://www.kanikahomeservice.in/logo.png",
+    telephone: "+917303405072",
+    email: "contact@kanikahomeservice.in",
+    areaServed: ["Vasundhara", "Vaishali", "Noida", "Ghaziabad", "Raj Nagar", "Kaushambi", "Mohan Nagar"],
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+917303405072",
+      contactType: "customer service",
+      areaServed: "IN",
+      availableLanguage: ["Hindi", "English"],
+    },
+    sameAs: ["https://wa.me/917303405072"],
+  };
+
   return (
     <article className="min-h-screen bg-brand-black pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+      />
       {/* Hero */}
       <div className="relative h-[40vh] w-full flex items-center justify-center">
          <Image src="/images/girl6.jpeg" alt="About Kanika Elite" fill className="object-cover opacity-60" priority />
@@ -23,7 +60,7 @@ export default function AboutPage() {
          </p>
          <h2 className="text-3xl text-brand-gold font-serif mt-12 mb-4">Our Philosophy</h2>
          <p className="font-light leading-relaxed">
-            We believe that every elite event should be an unforgettable, cinematic experience. Whether it is a massively opulent bachelor party in a sprawling Ghaziabad farmhouse or a discreet, closed-door VIP rendezvous in Noida, the quality of the performers sets the absolute tone. We strictly vet our dancers not only for their breathtaking physical beauty and choreographic skill but for their fierce intelligence, elegance, and understanding of elite etiquette.
+            We believe that every elite event should be an unforgettable, cinematic experience. Whether it is a massively opulent bachelor party in a sprawling Ghaziabad farmhouse or a discreet, closed-door VIP rendezvous in Noida, the quality of the performers sets the absolute tone. We strictly vet our Escorts not only for their breathtaking physical beauty and choreographic skill but for their fierce intelligence, elegance, and understanding of elite etiquette.
          </p>
          <h2 className="text-3xl text-brand-gold font-serif mt-12 mb-4">Uncompromising Discretion</h2>
          <p className="font-light leading-relaxed">

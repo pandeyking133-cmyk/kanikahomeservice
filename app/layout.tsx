@@ -10,11 +10,21 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Kanika Luxury Elite',
-    default: 'Premium Luxury Dancers & VIP Entertainment | Kanika Elite',
+    template: '%s | Kanika Home Service',
+    default: 'Premium Call Girls in Delhi NCR | Kanika Home Service',
   },
-  description: "Experience the ultimate in premium luxury entertainment across Delhi NCR. Hand-picked elite dancers and VIP companionship.",
+  description: "Experience the ultimate in premium luxury entertainment across Delhi NCR. Hand-picked elite Call Girls and VIP companionship.",
   metadataBase: new URL('https://www.kanikahomeservice.in'),
+  openGraph: {
+    siteName: "Kanika Home Service",
+    images: [{ url: "https://www.kanikahomeservice.in/images/home1.png", width: 1200, height: 630, alt: "Kanika Home Service" }],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://www.kanikahomeservice.in/images/home1.png"],
+  },
 };
 
 export default function RootLayout({

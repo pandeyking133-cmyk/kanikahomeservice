@@ -1,22 +1,22 @@
 export const locationData = {
   id: "ghaziabad",
-  slug: "dancers-in-ghaziabad",
-  title: "Best Premium Companion Services in Ghaziabad",
-  metaTitle: "Best Companion Services in Ghaziabad | Premium & Private Services",
-  metaDescription: "Looking for trusted companion services in Ghaziabad? Experience premium, private, and verified services with complete discretion.",
-  h1: "Best Premium Companion Services in Ghaziabad",
+  slug: "call-girls-in-ghaziabad",
+  title: "Best Premium Call girl Services in Ghaziabad",
+  metaTitle: "Best Call girl Services in Ghaziabad | Premium & Private Services",
+  metaDescription: "Looking for trusted Call girl services in Ghaziabad? Experience premium, private, and verified services with complete discretion.",
+  h1: "Best Premium Call girl Services in Ghaziabad",
   subtext: "Experience elegance, privacy, and refined companionship in Ghaziabad. Handpicked professionals, seamless booking, and a truly premium experience tailored for those who value discretion and quality.",
   heroImage: "/images/girl15.jpeg",
   heroVideo: "/videos/hero.mp4", // Using a high-quality cinematic loop
   sectionVideo: "/videos/video2.mp4", // Elegant walking shot/indoor aesthetic
   galleryImages: [
-    { src: "/images/girl16.jpeg", alt: "Premium lifestyle companion in Ghaziabad" },
-    { src: "/images/girl17.jpeg", alt: "Elite companionship Ghaziabad" },
+    { src: "/images/girl16.jpeg", alt: "Premium lifestyle Call girl in Ghaziabad" },
+    { src: "/images/girl17.jpeg", alt: "Elite Call girl Ghaziabad" },
     { src: "/images/girl18.jpeg", alt: "Sophisticated social companion" }
   ],
   content: `
     <h2>The Pinnacle of Private Luxury in Ghaziabad</h2>
-    <p>Ghaziabad is rapidly evolving into a hub of modern lifestyle and refined tastes. With this transformation, the demand for premium companionship services has also grown among individuals who seek more than just ordinary experiences.</p>
+    <p>Ghaziabad is rapidly evolving into a hub of modern lifestyle and refined tastes. With this transformation, the demand for premium Call girl services has also grown among individuals who seek more than just ordinary experiences.</p>
     <p>At our platform, we focus on delivering a level of service that reflects sophistication, trust, and attention to detail. Every profile is carefully selected to ensure that clients receive an experience that is smooth, comfortable, and tailored to their expectations.</p>
     <p>Whether you are looking for a relaxed evening, a social companion, or an exclusive private meeting, we ensure that every interaction maintains a sense of class and confidentiality.</p>
 
@@ -26,18 +26,18 @@ export const locationData = {
       <li><strong>Verified Profiles:</strong> Every profile goes through a strict selection process to maintain authenticity and quality.</li>
       <li><strong>Complete Privacy:</strong> Your identity and preferences are handled with the highest level of discretion.</li>
       <li><strong>Seamless Booking:</strong> Quick response, easy communication, and hassle-free arrangements.</li>
-      <li><strong>Professional Experience:</strong> Well-mannered, presentable, and socially adaptable companions.</li>
-      <li><strong>Flexible Availability:</strong> Available across Ghaziabad, Noida, and nearby areas.</li>
+      <li><strong>Professional Experience:</strong> Well-mannered, presentable, and socially adaptable Call girls.</li>
+      <li><strong>Flexible Availability:</strong> Available across areas of Ghaziabad.</li>
     </ul>
 
     <h2>Tailored Experiences for Every Occasion</h2>
     <p>Every client has different expectations, and we respect that. We offer personalized experiences designed around your comfort, schedule, and preferences.</p>
     <p><strong>Private Meetings:</strong> A relaxed and comfortable setting where you can enjoy meaningful company.</p>
-    <p><strong>Social Events:</strong> Attend gatherings, dinners, or events with a confident and well-presented companion.</p>
+    <p><strong>Social Events:</strong> Attend gatherings, dinners, or events with a confident and well-presented Call girl.</p>
     <p><strong>Outstation Travel:</strong> Travel companionship with professionalism and understanding of boundaries.</p>
 
-    <h2>Premium Companion Services in Ghaziabad – Discreet & Reliable</h2>
-    <p>If you are searching for premium companion services in Ghaziabad, you are likely looking for a balance of trust, privacy, and quality. Our platform ensures that every experience is safe, private, smoothly managed, and respectful.</p>
+    <h2>Premium Call girl Services in Ghaziabad – Discreet & Reliable</h2>
+    <p>If you are searching for premium Call girl services in Ghaziabad, you are likely looking for a balance of trust, privacy, and quality. Our platform ensures that every experience is safe, private, smoothly managed, and respectful.</p>
     <p>We understand that discretion is not just a feature — it is a requirement. That’s why we prioritize confidentiality in every interaction.</p>
 
     <h2>Privacy, Safety & Trust</h2>
@@ -70,10 +70,12 @@ export const locationData = {
   schema: {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Best Premium Companion Services Ghaziabad",
+    name: "Best Premium Call girl Services Ghaziabad",
+    url: "https://www.kanikahomeservice.in/call-girls-in-ghaziabad",
     image: "/images/girl15.jpeg",
     telephone: "+917303405072",
     email: "contact@kanikahomeservice.in",
+    openingHours: "Mo-Su 00:00-23:59",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Ghaziabad",

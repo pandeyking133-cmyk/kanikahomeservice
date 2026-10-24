@@ -39,13 +39,13 @@ const Footer = () => {
   };
 
   const locations = [
-    { name: "Vasundhara", path: "/dancers-in-vasundhara" },
-    { name: "Vaishali", path: "/dancers-in-vaishali" },
-    { name: "Noida", path: "/dancers-in-noida" },
-    { name: "Raj Nagar", path: "/dancers-in-raj-nagar" },
-    { name: "Mohan Nagar", path: "/dancers-in-mohan-nagar" },
-    { name: "Kaushambi", path: "/dancers-in-kaushambi" },
-    { name: "Ghaziabad", path: "/dancers-in-ghaziabad" },
+    { name: "Vasundhara", path: "/call-girls-in-vasundhara" },
+    { name: "Vaishali", path: "/call-girls-in-vaishali" },
+    { name: "Noida", path: "/call-girls-in-noida" },
+    { name: "Raj Nagar", path: "/call-girls-in-raj-nagar" },
+    { name: "Mohan Nagar", path: "/call-girls-in-mohan-nagar" },
+    { name: "Kaushambi", path: "/call-girls-in-kaushambi" },
+    { name: "Ghaziabad", path: "/call-girls-in-ghaziabad" },
   ];
 
   return (
@@ -65,7 +65,7 @@ const Footer = () => {
             </Link>
             <p className="text-sm text-gray-400 mt-4 leading-relaxed">
               Where elegance meets desire. Experience luxury and premium
-              professional entertainment services in the heart of Delhi NCR. High-end,
+              professional Call girl services in the heart of Delhi NCR. High-end,
               discreet, and unforgettable performances.
             </p>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
                     className="text-sm hover:text-brand-gold transition duration-300 flex items-center gap-2"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-gold/50"></span>
-                    Dancers in {loc.name}
+                    Call Girls in {loc.name}
                   </Link>
                 </li>
               ))}
