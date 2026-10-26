@@ -11,7 +11,7 @@ export const locationData = {
   sectionVideo: "/videos/video2.mp4", // Elegant walking shot/indoor aesthetic
   galleryImages: [
     { src: "/images/girl16.jpeg", alt: "Premium lifestyle Call girl in Ghaziabad" },
-    { src: "/images/girl17.jpeg", alt: "Elite Call girl Ghaziabad" },
+    { src: "/images/girl17.jpeg", alt: "Call girl Ghaziabad" },
     { src: "/images/girl18.jpeg", alt: "Sophisticated social companion" }
   ],
   content: `

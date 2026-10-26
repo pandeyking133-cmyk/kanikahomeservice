@@ -129,7 +129,7 @@ export default function Home() {
 
                   <div className="absolute bottom-0 left-0 w-full p-8 z-30 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                     <h3 className="text-2xl font-serif text-white mb-2 tracking-wide font-bold drop-shadow-lg">
-                      Elite Call girls in <span className="text-brand-gold">{loc.name}</span>
+                      Call girls in <span className="text-brand-gold">{loc.name}</span>
                     </h3>
                     <div className="w-12 h-0.5 bg-brand-burgundy mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"></div>
                     <span className="text-sm text-gray-300 uppercase tracking-widest flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
@@ -176,7 +176,7 @@ export default function Home() {
             {[
               { icon: <Star className="text-brand-gold w-10 h-10 mb-4" />, title: "Premium Selection", desc: "A curated roster of the most exquisite call girls." },
               { icon: <Shield className="text-brand-gold w-10 h-10 mb-4" />, title: "Absolute Discretion", desc: "100% confidential and private arrangements." },
-              { icon: <Clock className="text-brand-gold w-10 h-10 mb-4" />, title: "24/7 Availability", desc: "Ready to fulfill your elite requirements anytime." }
+              { icon: <Clock className="text-brand-gold w-10 h-10 mb-4" />, title: "24/7 Availability", desc: "Ready to fulfill your night requirements anytime." }
             ].map((feature, idx) => (
               <div
                 key={idx}

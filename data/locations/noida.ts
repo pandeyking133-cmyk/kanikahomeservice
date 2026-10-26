@@ -27,12 +27,12 @@ export const locationData = {
     
     <p><strong>Luxury Hotel Suites:</strong> Transform your 5-star hotel suite into a private theater of desire. Our performers excel in close-proximity, intense, and highly seductive private shows tailored for one-on-one or small group settings.</p>
     
-    <p><strong>Penthouse & Farmhouse Parties:</strong> Hosting a massive bash at a private Noida farmhouse? Our elite Call Girls can provide high-energy ambient dancing to keep the crowd engaged, or take center stage for a captivating, choreographed spectacle that will be the talk of the night.</p>
+    <p><strong>Penthouse & Farmhouse Parties:</strong> Hosting a massive bash at a private Noida farmhouse? Our Call Girls can provide high-energy ambient dancing to keep the crowd engaged, or take center stage for a captivating, choreographed spectacle that will be the talk of the night.</p>
 
     <p><strong>Exclusive Corporate Retreats:</strong> Add a touch of high-class entertainment to your after-hours corporate retreats. Our performers maintain the perfect balance of provocative allure and sophisticated restraint, making them ideal for high-status audiences.</p>
 
     <h2>An Unforgettable Sensual Journey</h2>
-    <p>A performance by our elite Noida Call Girls transcends basic entertainment. It is a fully immersive, sensual journey designed to captivate your mind and stimulate your deepest desires. From the carefully curated music selections to the exquisite, custom-made costumes that accentuate every movement, no detail is overlooked. Our performers master the art of the tease, building anticipation masterfully until the climax of their routine.</p>
+    <p>A performance by our Noida Call Girls transcends basic entertainment. It is a fully immersive, sensual journey designed to captivate your mind and stimulate your deepest desires. From the carefully curated music selections to the exquisite, custom-made costumes that accentuate every movement, no detail is overlooked. Our performers master the art of the tease, building anticipation masterfully until the climax of their routine.</p>
     
     <p>We encourage our clients to communicate their deepest fantasies and thematic desires during the booking phase. Whether you envision a sultry, dimly-lit burlesque act or a vibrant, energetic contemporary routine, our Noida Call Girls have the skill to bring your vision to life flawlessly. Their rhythmic precision, intense eye contact, and undeniable passion will leave you completely spellbound.</p>
 
@@ -44,7 +44,7 @@ export const locationData = {
   faqs: [
     {
       question: "Are your Call Girls in Noida available for both private and corporate events?",
-      answer: "Yes, our highly versatile elite Call Girls in Noida are trained to perform spectacularly in both wildly intimate private settings and sophisticated, high-profile corporate environments."
+      answer: "Yes, our highly versatile Call Girls in Noida are trained to perform spectacularly in both wildly intimate private settings and sophisticated, high-profile corporate environments."
     },
     {
       question: "How far in advance should I book for a large farm-house party in Noida?",

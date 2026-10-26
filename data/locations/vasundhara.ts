@@ -44,7 +44,7 @@ export const locationData = {
   faqs: [
     {
       question: "Are your Call Girls in Vasundhara available for private home parties?",
-      answer: "Yes, our elite Call Girls frequently perform at private bungalows and residences in Vasundhara. We specialize in discreet, high-end home entertainment."
+      answer: "Yes, our Call Girls frequently perform at private bungalows and residences in Vasundhara. We specialize in discreet, high-end home entertainment."
     },
     {
       question: "How do you ensure the privacy of the host?",
@@ -56,7 +56,7 @@ export const locationData = {
     },
     {
       question: "Can I book multiple Call Girls for a large event?",
-      answer: "Absolutely. We can provide coordinated groups of stunning elite Call Girls for a larger, more impactful stage show or synchronized performance."
+      answer: "Absolutely. We can provide coordinated groups of stunning Call Girls for a larger, more impactful stage show or synchronized performance."
     }
   ],
   schema: {

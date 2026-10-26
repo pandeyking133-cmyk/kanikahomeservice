@@ -49,7 +49,7 @@ export default function AboutPage() {
       />
       {/* Hero */}
       <div className="relative h-[40vh] w-full flex items-center justify-center">
-         <Image src="/images/girl6.jpeg" alt="About Kanika Elite" fill className="object-cover opacity-60" priority />
+         <Image src="/images/girl6.jpeg" alt="About Kanika Escort Service" fill className="object-cover opacity-60" priority />
          <div className="absolute inset-0 bg-brand-black/50"></div>
          <h1 className="relative z-10 text-4xl md:text-6xl font-serif text-brand-gold font-bold">About Our Agency</h1>
       </div>

@@ -2,8 +2,8 @@ export const locationData = {
   id: "vaishali",
   slug: "call-girls-in-vaishali",
   title: "High-Society Call Girls in Vaishali",
-  metaTitle: "Book Elite High-Society Call Girls in Vaishali | Velvet Luxury",
-  metaDescription: "Transform your high-society events in Vaishali with our elite, seductive Call Girls. We provide the most stunning, thoroughly vetted performers for VIPs.",
+  metaTitle: "Book High-Society Call Girls in Vaishali | Velvet Luxury",
+  metaDescription: "Transform your high-society events in Vaishali with our seductive Call Girls. We provide the most stunning, thoroughly vetted performers for VIPs.",
   h1: "High-Society Call Girls in Vaishali",
   heroImage: "/images/girl10.jpeg",
   content: `
@@ -39,7 +39,7 @@ export const locationData = {
     <h2>Seamless, Confidential VIP Concierge Service</h2>
     <p>We cater to the most powerful individuals in Vaishali, which means we understand the value of efficiency and trust. Our dedicated VIP concierge handles everything from the initial inquiry to the final curtain call. We require zero public fuss and guarantee zero exposure. Our transactions and communications are swift, encrypted, and respectful of your time and status.</p>
 
-    <p>Do not settle for medieval, average entertainment when hosting your next critical event or private party in Vaishali. Reach out to Kanika Home Service today. Allow us to curate a bespoke rhythmic spectacle featuring the most elite, high-society Call Girls available in the city, and experience the true meaning of velvet luxury.</p>
+    <p>Do not settle for medieval, average entertainment when hosting your next critical event or private party in Vaishali. Reach out to Kanika Home Service today. Allow us to curate a bespoke rhythmic spectacle featuring the most high-society Call Girls available in the city, and experience the true meaning of velvet luxury.</p>
   `,
   faqs: [
     {

@@ -10,7 +10,7 @@ export const locationData = {
     <h2>Unlocking Sensual Luxury in Mohan Nagar</h2>
     <p>Mohan Nagar represents a unique crossroads of rapid development and hidden, secluded luxury. For those connected to the city’s upper echelon, securing truly breathtaking entertainment for private affairs is a top priority. Kanika Home Service is the undisputed leader in providing highly sensual, luxury Call Girls in Mohan Nagar. We specialize in curating an elite roster of performers who bring an intoxicating blend of cinematic glamour, raw physical talent, and high-fashion elegance straight to your private doorstep or VIP event venue.</p>
     
-    <p>Our clients in Mohan Nagar are individuals who appreciate the nuances of true luxury. They demand more than just standard nightlife entertainment; they demand a fully immersive, emotional, and intensely visual experience. Our elite Call Girls are carefully selected not only for their flawless physical aesthetics but for their commanding presence and ability to completely captivate an audience. When you book with us, you are guaranteed a performance that radiates seductive energy and leaves a lasting, awe-inspiring impression.</p>
+    <p>Our clients in Mohan Nagar are individuals who appreciate the nuances of true luxury. They demand more than just standard nightlife entertainment; they demand a fully immersive, emotional, and intensely visual experience. Our Call Girls are carefully selected not only for their flawless physical aesthetics but for their commanding presence and ability to completely captivate an audience. When you book with us, you are guaranteed a performance that radiates seductive energy and leaves a lasting, awe-inspiring impression.</p>
 
     <h2>The Hallmark of Our Mohan Nagar Performers</h2>
     <p>We pride ourselves on offering a tier of entertainment that simply cannot be found anywhere else in Mohan Nagar. Our performers operate at the absolute peak of their industry.</p>
@@ -32,19 +32,19 @@ export const locationData = {
     <p><strong>Discreet One-on-One Showcases:</strong> For those who desire the ultimate personal indulgence, we offer hyper-secluded private performances. Book a luxury dancer to visit your private suite or residence in Mohan Nagar for a slow, deeply intimate show where you are the sole focus of her passion and artistry.</p>
 
     <h2>The Deep Psychology of the Performance</h2>
-    <p>Our elite Call Girls in Mohan Nagar understand that the most memorable performances engage the mind just as much as the eyes. They are highly skilled in the psychology of seduction. Before the main event, they use subtle flirtation, quick glances, and confident posturing to build incredible anticipation in the room. By the time the music drops and the performance begins, the audience is already completely captivated.</p>
+    <p>Our Call Girls in Mohan Nagar understand that the most memorable performances engage the mind just as much as the eyes. They are highly skilled in the psychology of seduction. Before the main event, they use subtle flirtation, quick glances, and confident posturing to build incredible anticipation in the room. By the time the music drops and the performance begins, the audience is already completely captivated.</p>
     
     <p>This level of psychological engagement separates our luxury performers from standard entertainers. It creates a deeply visceral, electric atmosphere where every movement feels heavy with intention. Combining this intense energy with their exquisite, custom-made stage wardrobes and flawless physical flexibility results in a performance that is nothing short of legendary.</p>
 
     <h2>Confidentiality That You Can Trust</h2>
     <p>Kanika Home Service is acutely aware of the privacy required by our high-status clients in Mohan Nagar. We operate as a silent partner in your entertainment needs. Your identifying information is compartmentalized securely, and our performers act with the utmost discretion upon arriving at and departing from your venue.</p>
 
-    <p>If you are ready to experience the very peak of sensual luxury entertainment, it is time to connect with our VIP concierge. Discuss your thematic desires, the nature of your event, and your specific aesthetic preferences. Let us provide you with the most mesmerizing, elite Call Girls in Mohan Nagar and guarantee a night of unparalleled passion and elegance.</p>
+    <p>If you are ready to experience the very peak of sensual luxury entertainment, it is time to connect with our VIP concierge. Discuss your thematic desires, the nature of your event, and your specific aesthetic preferences. Let us provide you with the most mesmerizing, Call Girls in Mohan Nagar and guarantee a night of unparalleled passion and elegance.</p>
   `,
   faqs: [
     {
       question: "Are these luxury Call Girls available for private, solo performances in Mohan Nagar?",
-      answer: "Yes, our elite Call Girls excel in highly intimate, one-on-one performances within the privacy of your own residence or luxury suite. These are our most popular and intensely sensual bookings."
+      answer: "Yes, our Call Girls excel in highly intimate, one-on-one performances within the privacy of your own residence or luxury suite. These are our most popular and intensely sensual bookings."
     },
     {
       question: "How discreet is the arrival of the Call Girls?",

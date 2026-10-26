@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: '%s | Kanika Home Service',
     default: 'Premium Call Girls in Delhi NCR | Kanika Home Service',
   },
-  description: "Experience the ultimate in premium luxury entertainment across Delhi NCR. Hand-picked elite Call Girls and VIP companionship.",
+  description: "Experience the ultimate in premium luxury entertainment across Delhi NCR. Hand-picked Call Girls and VIP companionship.",
   metadataBase: new URL('https://www.kanikahomeservice.in'),
   openGraph: {
     siteName: "Kanika Home Service",
